@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap');
+
+body {
+    font-family: Cairo, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 18px;
+    scroll-behavior: smooth; /* Smooth scroll */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.logo {
+    width: 400px;
+    margin-bottom: 20px;
+    transition: transform 0.3s; /* Animasi logo */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Perbesar logo saat di-hover */
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #A91D3A;
+    margin: 10px auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+#team {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.layar-dalam {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #A91D3A;
+    margin: 10px auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tim {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Animasi anggota tim */
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member:hover {
+    transform: scale(1.05); /* Perbesar gambar saat di-hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+}
+
+.team-member h6 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.team-member span {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer .layar-dalam {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .layar-dalam > div {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+footer h5 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer h5 i {
+    margin-right: 10px;
+}
+
+footer p, footer ul {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s, text-decoration 0.3s; /* Transisi link hover */
+}
+
+footer ul li a i {
+    margin-right: 10px;
+}
+
+footer ul li a:hover {
+    color: #A91D3A;
+    text-decoration: underline;
+}
+
+footer .sitemap p a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .sitemap p a i {
+    margin-right: 10px;
+}
+
+footer .sitemap p a:hover {
+    color: #A91D3A;
+    text-decoration: underline;
+}
+
+footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    font-size: 1em;
+}
+
+footer .copyright:hover{
+    color: #A91D3A;
+}
